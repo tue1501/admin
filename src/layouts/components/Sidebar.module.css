@@ -1,0 +1,70 @@
+.drawer {
+  height: 100%;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.drawerHeader {
+  padding: 16px 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  background: linear-gradient(to right, #1976d2, #2196f3);
+}
+
+.drawerTitle {
+  font-weight: 700 !important;
+  color: white !important;
+  letter-spacing: 1px;
+  font-size: 0.9rem !important;
+}
+
+.drawerPaper {
+  border-right: none !important;
+  background-color: #fff !important;
+  box-shadow: 1px 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.menuList {
+  padding: 8px 0 !important;
+}
+
+.menuItem {
+  padding: 10px 20px !important;
+  margin: 4px 12px !important;
+  border-radius: 8px !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.menuItem:hover {
+  background-color: rgba(25, 118, 210, 0.08) !important;
+  transform: translateX(4px);
+}
+
+.menuItemActive {
+  background-color: rgba(25, 118, 210, 0.12) !important;
+  transform: translateX(4px);
+}
+
+.menuIcon {
+  color: rgba(0, 0, 0, 0.54);
+  min-width: 36px !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.menuIconActive {
+  color: #1976d2 !important;
+}
+
+.menuTextActive span {
+  color: #1976d2;
+  font-weight: 600;
+}
+
+/* Thêm hiệu ứng hover cho menu items */
+.menuItem:hover .menuIcon {
+  color: #1976d2;
+  transform: scale(1.1);
+}
+
+.menuItem:hover span {
+  color: #1976d2;
+} 

@@ -1,0 +1,37 @@
+.container {
+  padding: 24px;
+}
+
+.backButton {
+  margin-bottom: 16px;
+}
+
+.title {
+  margin-bottom: 24px;
+}
+
+.formContainer {
+  padding: 24px;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 16px;
+}
+
+.loadingContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.errorContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  padding: 24px;
+  text-align: center;
+} 

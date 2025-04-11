@@ -1,0 +1,56 @@
+.container {
+  padding: 24px;
+  margin-top: -75px;
+}
+
+.backButton {
+  margin-bottom: 16px;
+  height: 40px; /* Increase the height of the button */
+}
+
+.title {
+  margin-bottom: 24px;
+}
+
+.section {
+  padding: 32px; /* Increase the padding to make the form taller */
+}
+
+.divider {
+  margin: 16px 0;
+}
+
+.loadingContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.errorContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  padding: 24px;
+  text-align: center;
+}
+
+.productInfo {
+  display: flex;
+  align-items: center;
+}
+
+.productImage {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 16px;
+  border-radius: 4px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}

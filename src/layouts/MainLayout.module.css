@@ -1,0 +1,30 @@
+.root {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f8fafc;
+}
+
+.content {
+  flex-grow: 1;
+  background-color: #f8fafc;
+  min-height: calc(100vh - 64px);
+  padding: 16px 24px;
+  margin-top: 16px;
+}
+
+.contentArea {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.pageTitle {
+  margin-bottom: 24px;
+  color: #1e293b;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.toolbar {
+  display: none;
+}

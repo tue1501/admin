@@ -1,0 +1,24 @@
+.appBar {
+  z-index: 1201 !important;
+  height: 64px;
+  background-color: transparent !important;
+  border-bottom: none;
+}
+
+.toolbar {
+  min-height: 64px !important;
+  height: 64px;
+  padding: 0 16px !important;
+}
+
+.menuButton {
+  margin-right: 16px;
+  display: none;
+  color: #1e293b !important;
+}
+
+@media (max-width: 900px) {
+  .menuButton {
+    display: block;
+  }
+} 

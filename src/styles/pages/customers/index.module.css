@@ -1,0 +1,31 @@
+.container {
+  padding: 20px;
+  margin-top: -75px;
+}
+
+.loadingContainer,
+.errorContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.errorContainer {
+  color: red;
+}
+
+.tableContainer {
+  overflow-x: auto;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}

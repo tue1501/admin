@@ -1,0 +1,35 @@
+.container {
+  padding: 24px;
+  margin-top: -75px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.title {
+  margin-bottom: 24px;
+}
+
+.detailContainer {
+  padding: 24px;
+}
+
+.divider {
+  margin: 24px 0 !important;
+}
+
+.loadingContainer,
+.errorContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.errorContainer {
+  color: red;
+}

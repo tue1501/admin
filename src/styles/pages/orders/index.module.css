@@ -1,0 +1,56 @@
+.container {
+  padding: 20px;
+  margin-top: -75px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.tableContainer {
+  margin-top: 20px;
+}
+
+.loadingContainer,
+.errorContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loadingContainer .MuiCircularProgress-root {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.errorContainer .MuiTypography-root {
+  font-size: 18px;
+  color: red;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filterContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.dateInput {
+  width: 200px;
+}
+
+.filterButton {
+  height: 55px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

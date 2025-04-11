@@ -1,0 +1,73 @@
+.container {
+  padding: 24px;
+}
+
+.backButton {
+  margin-bottom: 24px;
+}
+
+.profileContainer {
+  padding: 24px;
+}
+
+.profileHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.avatar {
+  width: 120px !important;
+  height: 120px !important;
+  margin-bottom: 16px;
+}
+
+.customerName {
+  margin-bottom: 8px !important;
+}
+
+.statusChip {
+  margin-bottom: 16px;
+}
+
+.divider {
+  margin: 24px 0 !important;
+}
+
+.profileInfo {
+  margin-top: 16px;
+}
+
+.infoLabel {
+  margin-top: 16px !important;
+  margin-bottom: 4px !important;
+}
+
+.ordersContainer {
+  padding: 24px;
+}
+
+.orderRow {
+  cursor: pointer;
+}
+
+.orderRow:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.loadingContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.errorContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  padding: 24px;
+  text-align: center;
+} 
